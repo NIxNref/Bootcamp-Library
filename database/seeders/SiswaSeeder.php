@@ -16,11 +16,11 @@ class SiswaSeeder extends Seeder
     {
         $data = [
             [
-                'name' => 'Raji',
-                'kelas' => 'XII RPL 1',
+                'name' => 'Ann',
+                'kelas' => 'XI RPL 1',
                 'role_status' => 'siswa',
-                'email' => 'raji@gmail.com',
-                'password' => Hash::make('raji1234'),
+                'email' => 'ann@gmail.com',
+                'password' => Hash::make('ann12345'),
                 'created_at' => now(),
                 'updated_at' => now()
             ]
